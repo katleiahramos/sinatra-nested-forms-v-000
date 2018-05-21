@@ -1,2 +1,3 @@
 class Pirate
+  @@all = []
 end
