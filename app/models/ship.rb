@@ -6,6 +6,10 @@ class Ship
     @name = name
     @type = type
     @booty = booty
-      @@all << self 
+      @@all << self
+  end
+
+  def self.all
+    @@all
   end
 end
